@@ -5,6 +5,21 @@ Feartures of python:-
 2) Simple syntax.
 3) Multi paradigm programming language. Ex- Structure, OOP.
 4) Emphasis on code readibility.
-5) Dynamic typing. 
-6) 
-7) 
+5) Dynamic typing. At run time the expression type is automatically decided.
+6) Automatic memory management
+7) Dynamic binding. When we call a function, which function will run will be decided on runtime.
+8) Precise coding.
+9) For time critical operations, python can use modules written in C language.
+10) Indentation base block of code
+11) Large library
+12) Platform independent
+
+Basic steps to make software in C/C++ :-
+Preprocessor edits the .c filr and solved the #include statements etc.
+Compiler is used to change source code to machine code(Binary).
+Linker takes the object file from compiler and mixes with the library file and makes the last executable file.
+
+Pyhton's compiler converts it in machine code but it can not run directly in any platform. 
+So Python Virtual Machine (PVM) is user to run this (Byte code)machine code. There are different PVM for different platforms.
+Hence python is known as platform independent language.
+PVM has interpretor(Just in time compiler).
