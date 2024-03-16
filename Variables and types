@@ -1,7 +1,7 @@
 single line comment - #
 Multiple line comment - """ """
 
-Different data types in python:-
+Different data types (class) in python:-
 Text Type:	str
 Numeric Types:	int, float, complex
 Sequence Types:	list, tuple, range
@@ -12,6 +12,24 @@ Binary Types:	bytes, bytearray, memoryview
 
 Python is a dynamic type language which means that not only the value of a variable may change during
 program execution but the type as well.
-Ii is also comparatively slow as compared to static type language.
+It is also comparatively slow as compared to static type language.
+
+Memory Management:- If x = 5
+Namespace/Stack - x | Reference variable where the ID of object is stored
+Private heap space - 5 | Dynamic object | Made at runtime
+Garbage block - If there is no pointer pointing on a object in private heap space. Then that object is garbage block.
+Garbage collection - Python automatically calls this program. If checked that if there are any garbage 
+blocks in private heap space and releases them.
+Memory leak- If there is no pointer pointing on a object in private heap space. Happens in C/C++
+Using del keyword we do not release the objects. We delete Stack.
+
+Object is an instance of a class.
+In python everything is an object:-
+1) Instance object - x=5
+2) Function object - print
+3) Class object - int
+
+
+
 
 
