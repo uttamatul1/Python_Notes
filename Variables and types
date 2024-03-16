@@ -10,3 +10,8 @@ Set Types:	set, frozenset
 Boolean Type:	bool
 Binary Types:	bytes, bytearray, memoryview
 
+Python is a dynamic type language which means that not only the value of a variable may change during
+program execution but the type as well.
+Ii is also comparatively slow as compared to static type language.
+
+
