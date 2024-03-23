@@ -1,1 +1,116 @@
+Module: It is a python file. It can contain instance objects, function objects and class objects. 
+In simple words, it contains variables, functions and classes. .py files are modules.
+
+Package: It is a collection of modules and sub-packages.
+
+Library: It is a collection of packages.
+
+import module_name
+moduleName.moduleElement
+moduleElement can be - Variable (instant object), Function, Class.
+
+-) Keywords are also known as reserved words- They are pre-defined words
+and 	
+It is a Logical Operator
+
+False	
+Represents an expression that will result in not being true.
+
+nonlocal	
+It is a non-local variable
+
+as	
+It is used to create an alias name
+
+finally	
+It is used with exceptions
+
+not	
+It is a Logical Operator
+
+assert	
+It is used for debugging
+
+for	
+It is used to create Loop
+
+or	
+It is a Logical Operator
+
+break	
+Break out a Loop
+
+from	
+To import specific parts of a module
+
+pass	
+pass is used when the user doesn’t 
+
+want any code to execute
+
+class	
+It is used to define a class
+
+global	
+It is used to declare a global variable
+
+raise	
+raise is used to raise exceptions or errors.
+
+continue	
+Skip the next iteration of a loop
+
+if	
+To create a Conditional Statement
+
+return	
+return is used to end the execution
+
+def	
+It is used to define the Function
+
+import	
+It is used to import a module
+
+True 	
+Represents an expression that will result in true.
+
+del	
+It is used to delete an object
+
+is	
+It is used to test if two variables are equal
+
+try	
+Try is used to handle errors
+
+elif	
+Conditional statements, same as else-if
+
+in	
+To check if a value is present in a Tuple, List, etc.
+
+while	
+While Loop is used to execute a block of statements
+
+else	
+It is used in a conditional statement
+
+lambda	
+Used to create an anonymous function
+
+with	
+ with statement is used in exception handling
+
+except	
+try-except is used to handle these errors
+
+None	
+It represents a null value
+
+yield	
+yield keyword is used to create a generator function
+
+-) You can access help section in IDLE of any Python by calling help() function
+
 
