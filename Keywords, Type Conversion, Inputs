@@ -9,6 +9,8 @@ import module_name
 moduleName.moduleElement
 moduleElement can be - Variable (instant object), Function, Class.
 
+from module_name import moduleElement
+
 -) Keywords are also known as reserved words- They are pre-defined words
 and 	
 It is a Logical Operator
