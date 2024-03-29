@@ -1,3 +1,25 @@
 Decision Control - if | if else | if elif else | Single line if else
 
+Number = int(input('Enter your number: '))
+if Number > 0:
+    print(f'The {Number} is Positive.')
+elif Number < 0:
+    print(f'The {Number} is Negative.')
+else:
+     print(f'The {Number} is nor positive or negative.')
 
+eval function
+
+match is a soft keyword, hence can be used as variable.
+For those of you who have some background in other languages like Java or C, match case may look like a switch statement.
+Switch statements are functionally similar to if-else statements, but they require less code when defining the cases.
+The match case statement in Python is more powerful and allows for more complicated pattern matching.
+
+>>> command = 'Hello, World!'
+>>> match command:
+...     case 'Hello, World!':
+...         print('Hello to you too!')
+...     case 'Goodbye, World!':
+...         print('See you later')
+...     case other:
+...         print('No match found')
