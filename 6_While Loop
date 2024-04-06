@@ -15,4 +15,31 @@ while i<= 10:
     print(i,end=' ')
     i+=1
 
+break keyword is used to terminate the execution of loop.
+It is always outside the loop.
+
+a = 1
+while a <=3:
+    i = int(input('Enter an number: '))
+    if i % 2 == 0: 
+        print('Even')
+    else:
+        print('Odd')
+        break
+    a+=1
+
+else block executes when while loop terminates normally.
+else block won't be executed when loop terminated due to break statement.
+
+pass keyword is used to create empty blocks.
+a = 1
+while a <=3:
+    i = int(input('Enter an number: '))
+    if i % 2 == 0: 
+        print('Even')
+    else:
+        pass
+    a+=1
+
+
 
