@@ -1,1 +1,7 @@
+For loops only work on iterables.
+Iterables are basically a group of elements.
+
+for x in ('Atul'):
+    print(x)
+
 
