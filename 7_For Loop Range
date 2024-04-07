@@ -4,4 +4,17 @@ Iterables are basically a group of elements.
 for x in ('Atul'):
     print(x)
 
+x = input("Enter a word: ")
+count=0
+for a in x:
+    if x=='a':
+        count+=1
+print('Count= ',count)
+
+while loop iterates a block of code till a specified condition is true.
+
+for loop iterates a block of code number of times same as the number of elements in the iterables.
+If iterates for the number of iterables from the first element to the last element.
+
+
 
