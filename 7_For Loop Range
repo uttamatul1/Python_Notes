@@ -16,5 +16,14 @@ while loop iterates a block of code till a specified condition is true.
 for loop iterates a block of code number of times same as the number of elements in the iterables.
 If iterates for the number of iterables from the first element to the last element.
 
+Iterables in Python are objects that can be iterated over, meaning they contain a collection of elements that can be accessed one at a time. 
+Iterators, on the other hand, are objects that can be iterated over as well, but they also have a method called __next__() that allows them to remember their 
+state during iteration.
+Iterators and iterables are related concepts, but they are not the same. 
+An iterable is any object capable of returning its members one at a time, while an iterator is an object that has been produced from an iterable and maintains the 
+iteration state.
+In Python, built-in types like lists, tuples, dictionaries, and sets are iterable. You can iterate over these objects using for loops or built-in functions like 
+map(), filter(), and zip().
+
 
 
