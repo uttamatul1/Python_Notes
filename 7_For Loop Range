@@ -25,6 +25,27 @@ iteration state.
 In Python, built-in types like lists, tuples, dictionaries, and sets are iterable. You can iterate over these objects using for loops or built-in functions like 
 map(), filter(), and zip().
 
+x = input("Enter a String: ")   ### Need to check this code ###
+for a in x:
+    if a=="r":
+        break
+    print("Empty String")
+else:
+    print("All the characters are processed")
 
+Alternatively we can say that an Iterable object is something that contains a countable amount of value.
+We can transverse through all the values from the beginning to the end.
+An iterator is an object which implements the iterator protocal which consists of methods __iter__() and __next__().
 
+for loop is always applied on iterable object.
 
+Various iterables:
+range | list | tuple | str | bytes | bytearray | set | frozenset | dict
+
+range - It is a class.
+It is a immutable sequence.
+Range can contain only int type value.
+It contains sequence of integers with common difference (Arithmetic progression).
+r = range(beg,end,step)
+r = range(end) ### beginning value is considered zero
+r = range(beg,end) ### step is taken by-default as one
