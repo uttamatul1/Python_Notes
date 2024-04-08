@@ -52,3 +52,14 @@ r = range(beg,end) ### step is taken by-default as one
 range element is accessed via for loop.
 for a in r1:
     print(r1)
+
+for n in range(int(input("Enter a number: "))):
+    print(n+1,end=" ")
+
+for n in range(int(input("Enter a number: "))):
+    print((n+1)**2,end=" ")
+
+for n in range(int(input("Enter a number: ")),0,-1):
+    print((n),end=" ")
+
+
