@@ -49,3 +49,6 @@ It contains sequence of integers with common difference (Arithmetic progression)
 r = range(beg,end,step)
 r = range(end) ### beginning value is considered zero
 r = range(beg,end) ### step is taken by-default as one
+range element is accessed via for loop.
+for a in r1:
+    print(r1)
