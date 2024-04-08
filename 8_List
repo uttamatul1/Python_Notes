@@ -1,1 +1,13 @@
+List is a class.
+Class is a group of variables and functions known as attributes. The attribues are accessed using objects of a class.
+List is a iterable sequence.
+It is mutable and growable.
+It can store heterogeneous data. ### Can contain different types of data
+List elements are indexed.
+a = [] ### Empty list
+
+l1 = [12,28,56]
+for a in l1:
+    print(a,end=' ')
+
 
