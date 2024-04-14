@@ -4,4 +4,21 @@ for i in a:
         a.remove(i)
 print(a)
 
+An object is hashable if it has a hash value which never changes during its lifetime (it needs a __hash__() method), and can be compared to other objects 
+(it needs an __eq__() or __cmp__() method). Hashable objects which compare equal must have the same hash value.
+Hashability makes an object usable as a dictionary key and a set member, because these data structures use the hash value internally.
+All of Python’s immutable built-in objects are hashable, while no mutable containers (such as lists or dictionaries) are. Objects which are instances of 
+user-defined classes are hashable by default; they all compare unequal, and their hash value is their id().
+
+Hashing is a concept in computer science which is used to create high performance, pseudo random access data structures where large amount of data is to be stored
+and accessed quickly.
+For example, if you have 10,000 phone numbers, and you want to store them in an array (which is a sequential data structure that stores data in contiguous memory 
+locations, and provides random access), but you might not have the required amount of contiguous memory locations.
+So, you can instead use an array of size 100, and use a hash function to map a set of values to same indices, and these values can be stored in a linked list. 
+This provides a performance similar to an array.
+Now, a hash function can be as simple as dividing the number with the size of the array and taking the remainder as the index.
+
+list, set and dict are not hashable. Everything else is hashable.
+
+str is a class which is immutable, iterable, hashable and in a sequence.
 
