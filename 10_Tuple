@@ -1,1 +1,9 @@
+tuple ( )is a class which is iterable, immutable, hashable, sequence.
 
+t= (10) ### Not a tuple
+t= (10,) ### tuple
+t= 10,20,30 ### tuple
+
+There are only two functions in tuple:
+index()
+count()
