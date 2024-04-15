@@ -22,3 +22,32 @@ list, set and dict are not hashable. Everything else is hashable.
 
 str is a class which is immutable, iterable, hashable and in a sequence.
 
+s2='1a2s3d4f'
+s2=sum([int (e) for e in s2 if ord(e)>=49 and ord(e)<=57])  ###Digits unicodes are between 49 and 57###
+print(s2)
+
+The format() method formats the specified value(s) and insert them inside the string's placeholder.
+The placeholder is defined using curly brackets: {}.
+#named indexes:
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+#numbered indexes:
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+print(txt1)
+print(txt2)
+
+s1='My name is Anthony'
+s1=s1.split(' ')
+s2=[str (e) for e in s1] 
+print(s2)
+
+s1=['My', 'name', 'is', 'Anthony']
+s1=' '.join(s1)
+print(s1)
+
+Slicing operator:- strobject[beg:end:step]
+s1='My name is Anthony'
+s1=s1[1:10:2]
+print(s1)
+
+
+
