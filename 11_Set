@@ -1,1 +1,6 @@
+Set is a mutable, class and not hashable.
+It is iterable, not in sequence and can not have duplicate value.
+Indexing and slicing operator is not applicable to set object.
+It does not guarantee to store value in the order of insertion.
+
 
