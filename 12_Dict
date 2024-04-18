@@ -1,1 +1,7 @@
+dict is a class.
+It is mutable, not hashable, iterable, not a sequence, can not have duplicate keys (not data values).
+Indexing is not applicale on a dict object.
+Slicing object is not applicable.
+dict elements are a pair of kay value and data value.
+
 
