@@ -1,6 +1,13 @@
-Set is a mutable, class and not hashable.
+Set {} is a mutable, class and not hashable.
 It is iterable, not in sequence and can not have duplicate value.
 Indexing and slicing operator is not applicable to set object.
 It does not guarantee to store value in the order of insertion.
+
+Built in methods- len, min, max, sum, sorted
+
+concatenation (+) and repeated (*) operators are not valid on set.
+
+set object methods-
+add | update | discard | remove | intersection | union | clear | issubset | issuperset | pop
 
 
