@@ -4,7 +4,29 @@ Indexing is not applicale on a dict object.
 Slicing object is not applicable.
 dict elements are a pair of kay value and data value.
 
-thisdict = dict(name = "John", age = 36, country = "Norway")
-print(thisdict)
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+print(Dict[1])
 
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+for k in Dict:
+    print(k,Dict[k])
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+Dict[1]='Atul'
+print(Dict[1])
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+Dict[1]=('Atul','Uttam')
+print(Dict)
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+Dict[4]='Atul'
+print(Dict)
+
+methods - items() ### returns collection of dict elements --- dict_items([(1, 'Geeks'), (2, 'For'), (3, 'Geeks')])
+  keys() ### returns collection of keys only of the elements --- dict_keys([1, 2, 3])
+  values() ### returns collection of data values only of dict elements --- dict_values(['Geeks', 'For', 'Geeks'])
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+print(Dict.items())
 
