@@ -4,4 +4,7 @@ Indexing is not applicale on a dict object.
 Slicing object is not applicable.
 dict elements are a pair of kay value and data value.
 
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
+
 
