@@ -30,3 +30,21 @@ methods - items() ### returns collection of dict elements --- dict_items([(1, 'G
 Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
 print(Dict.items())
 
+Built-in methods- len() | min() | max() | sum() | sorted() ### All these functions are only applied at keys
+
+Two dict objects are equal if their items are equal. Elements can be stored in any order.
+
+dict objects methods- pop(key) ### returns only data value of the elements and the value is deleted --- {1: 'Geeks', 3: 'Geeks'}
+    popitem() --- {1: 'Geeks', 2: 'For'}
+    clear() ### all elements are deleted
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+Dict.pop(2)
+print(Dict)
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+Dict.popitem()
+print(Dict)
+
+
+
