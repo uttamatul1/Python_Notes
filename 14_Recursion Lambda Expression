@@ -1,1 +1,11 @@
+Function calling itself is called Recursion.
+
+def fact(n):
+    if(n==1 or n == 0):
+        return 1;
+    
+    return n*fact(n-1)   // 4* fact(3)
+    
+print(fact(4))
+
 
