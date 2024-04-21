@@ -4,9 +4,20 @@ def likho():
 likho()
 
 Takes something, Returns something
-def sum(a,b):
+def sum(a,b):                            ### Formal Arguements
     c=a+b
     print('Sum is', c)
-sum(4,3)
+sum(4,3)                                 ### Actual Arguements
+
+Takes nothing, Returns something
+def sum():
+    print('Enter two numbers: ')
+    a=int(input())
+    b=int(input())
+    c=a+b
+    print('Sum is', c)
+sum()
+
+
 
 
