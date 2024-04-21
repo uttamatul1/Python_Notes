@@ -1,1 +1,5 @@
+def likho():
+    print('Likh diya')
+likho()
+
 
