@@ -1,5 +1,12 @@
+Takes nothing, Returns nothing
 def likho():
     print('Likh diya')
 likho()
+
+Takes something, Returns something
+def sum(a,b):
+    c=a+b
+    print('Sum is', c)
+sum(4,3)
 
 
