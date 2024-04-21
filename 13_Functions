@@ -18,6 +18,6 @@ def sum():
     print('Sum is', c)
 sum()
 
-
+def f1(*t):                             ### Due to * the f1 function is now a tuple and all the values passed through them are tuple
 
 
