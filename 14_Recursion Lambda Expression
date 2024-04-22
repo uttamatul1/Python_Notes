@@ -39,6 +39,15 @@ def sub(n):
 
             
 sub(n)
-*******************************************
+********************************************
+Lambda Expression:
+Lambda is a keyword.
+Lambda expressions are syntactically restricted to a single expression.
+lambda input: expression
+lambda a,b: a+b
+no need of def keyword
+
+x=(lambda a,b:a+b)
+print(x(3,4))
 
 
