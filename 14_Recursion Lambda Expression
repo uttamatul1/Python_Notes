@@ -9,7 +9,7 @@ def fact(n):
 print(fact(4))
 
 ** Learn how to draw Recursion tree
-
+********************************************
 n=int(input('Enter a number: '))
 
 def sum(n):
@@ -18,5 +18,27 @@ def sum(n):
     return n+sum(n-1)
     
 print(sum(n))
+********************************************
+n=int(input('Enter a number: '))
+
+def sum(n):
+    if(n==1 or n == 0):
+        return 1;
+    return n*n+sum(n-1)
+    
+print(sum(n))
+********************************************
+n=int(input('Enter a number: '))
+
+def sub(n):
+    if (n==0):
+        return()
+    if(n>0):
+        print(n)
+    sub(n-1)
+
+            
+sub(n)
+*******************************************
 
 
