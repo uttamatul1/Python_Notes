@@ -97,4 +97,14 @@ Just like map function, arguement function is applied to all the elements of
 arguement iterable in reduce method.
 map returns an iterable while returns an accumulated single value.
 
+import functools
+l1=[1,2,3,4]
+def multiply(a,b):
+    return a*b
+r=functools.reduce(multiply,l1)
+print(r)
+*************************************************************************************
+The filter method filters a given iterable with the help of a function that tests each element 
+in the iterable to be true or not.
+filter(function,iterable)
 
