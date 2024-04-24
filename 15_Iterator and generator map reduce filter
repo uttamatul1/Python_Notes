@@ -1,1 +1,16 @@
+An iterator can be seen as a pointer to a container (set, dict etc).
+The iterator is an abstraction which enables the programmer to access all the elements of a container
+without any deeper knowledge of the data structure of this container object.
+Iterator is implicitly available for loop.
+
+Container is an which contains many other objects.
+
+next method returns the element pointed by specified iterator object.
+next method advances iterator object so that it can point to next element of the container object.
+
+When next method is called for an iterator object which surpasses the last object of the container
+object, it produces StopIteration exception.
+
+
+
 
