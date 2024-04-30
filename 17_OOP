@@ -1,1 +1,12 @@
+Functional programming emphasizes the use of functions, each designed to perform a specific task, with a focus on the manipulation of immutable data within 
+these functions. The paradigm prioritizes functions over data, following a declarative programming model and utilizing recursion for iteration. It supports 
+parallel programming and does not require statements to adhere to a specific execution order. Unlike object-oriented programming, functional programming lacks
+access specifiers and does not provide data hiding, which can compromise program security. Adding new data and functions in this paradigm can be more challenging
+compared to object-oriented programming. 
+
+Object-oriented programming, on the other hand, revolves around object-oriented concepts, utilizing classes and objects to structure programs. It emphasizes 
+the importance of data, providing methods for data manipulation and offering access specifiers such as public, private, and protected. Object-oriented programming 
+follows an imperative programming model, employing loops for iteration and requiring a bottom-up approach to execution order. It facilitates data hiding,
+enhancing program security, and provides a straightforward method for adding new data and functions to existing classes.
+
 
