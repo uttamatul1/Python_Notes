@@ -9,4 +9,29 @@ the importance of data, providing methods for data manipulation and offering acc
 follows an imperative programming model, employing loops for iteration and requiring a bottom-up approach to execution order. It facilitates data hiding,
 enhancing program security, and provides a straightforward method for adding new data and functions to existing classes.
 
+function in a class is a method.
+
+__init__ method calls itself automatically
+***************************************************************************
+class Dog:
+
+    # class attribute
+    attr1 = "mammal"
+
+    # Instance attribute
+    def __init__(self, name):
+        self.name = name
+        
+    def speak(self):
+        print("My name is {}".format(self.name))
+
+# Driver code
+# Object instantiation
+Rodger = Dog("Rodger")
+Tommy = Dog("Tommy")
+
+# Accessing class methods
+Rodger.speak()
+Tommy.speak()
+*************************************************************************************
 
